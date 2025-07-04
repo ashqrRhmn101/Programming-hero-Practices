@@ -1,0 +1,229 @@
+*{
+    margin: 0%;
+    padding: 0%;
+    background-color: #FFFFFF;
+}
+
+.header{
+    margin: 30px;
+    padding: ;
+    display: flex;
+     /* gap: 20px;  */
+    justify-content: space-between;
+}
+.menu{
+    display: flex;
+    margin-top: 10px;
+    /* font-family: Arial, sans-serif; */
+    font-size: 18px;
+    font-weight: 600;
+    line-height: 25px;
+}
+.menu a{
+    padding: 0px 15px;
+    text-decoration: none;
+    color: #211C28;
+    font-family: Arial, sans-serif;
+}
+.button{
+    width: 105px;
+    height: 25px;
+    margin-left:30px;
+    padding: 10px;
+    border: 2px solid;
+    border-radius: 50px;
+    color: black;
+    background-color: #08F2EA;
+    box-shadow: 5px 5px black;
+}
+.button p{
+    text-align: center;
+    background-color: #08F2EA;
+    font-family: Arial, Helvetica, sans-serif;
+}
+.main{
+    height: 450px;
+    display: flex;
+    /* align-items: center; */
+    justify-content: space-between;
+}
+.b1{
+    margin-top:110px ;
+    margin-left: 20px;
+}
+.b1 h1{
+    font-family: Nexaround, Arial, sans-serif;
+    font-size: 60px;
+    font-weight: 900;
+    letter-spacing: -2.5px;
+}
+.b2 img{
+    width: 500px;
+    height: 500px;
+}
+.p1{
+    width: 170px;
+    margin-left:10px ;
+    padding: 10px;
+    text-align: center;
+    border: 3px solid;
+    border-radius: 50px;
+    font-family: Nexaround, Arial, sans-serif;
+    font-size: 16px;
+    font-weight: 800;
+    color: #050506;
+}
+.p{
+    font-family: Nexaround, Arial, sans-serif;
+    font-size: 20px;
+    font-weight: 400;
+    letter-spacing: 0.5px;
+    color: #736783;
+}
+.logo{
+    /* width: 1800px; */
+    display: flex;
+    /* background-color: #736783; */
+    padding: 10px 10px 10px 20px;
+    margin: 100px 0px 100px 0px;
+    align-items: center;
+    justify-content: center;
+}
+.logo img{
+    width: 150px;
+    padding: 20px;
+}
+.section{
+    max-width: 1264px;
+    margin: 0 auto;
+    /* padding: 80px 20px; */
+    font-family: Arial, sans-serif;
+    font-size: 18px;
+    /* line-height: 24px; */
+    font-weight: 400;
+    text-align: center;
+}
+.hero{
+    width: 660px;
+    /* height: 340px; */
+    margin: 70px;
+    padding: 20px 240px;
+    font-size: 18px;
+    line-height: 24px;
+    font-weight: 400;
+    text-align: center;
+    /* background-color: #736783; */
+}
+#h{
+    /* width: 170px; */
+    margin: 0px 220px;
+    padding: 10px;
+    text-align: center;
+    font-weight: 800;
+    font-size: 16px;
+    font-family: Arial, sans-serif;
+    margin-bottom:30px ;
+    border: 3px solid;
+    border-radius: 50px;
+}
+.hero h2{
+    /* width: 660px; */
+    /* height: 136px; */
+    margin: 10px;
+    font-size: 64px;
+    font-weight: 900;
+    line-height: 70px;
+}
+#h3{
+    margin-top: 30px;
+    font-family: Arial, sans-serif;
+    font-size: 20px;
+    font-weight: 400;
+    letter-spacing: 0.5px;
+    color: #736783;
+}
+
+.imgPart{
+    /* width: auto; */
+    margin: 200px 40px 10px -390px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.imgPart img{
+    display: flex;
+    margin: 0px 20px 20px 300px;
+    /* padding: 0px 20px 0px 240px; */
+    /* width: auto; */
+}
+.imgWrite{
+    max-width: 640px;
+    height: 500px;
+    margin: 120px 0px 650px -1025px;
+    border: 0px solid;
+    text-align:left;
+    font-family: Arial, sans-serif;
+    /* padding: 20px 10px; */
+    font-size: 18px;
+    line-height: 24px;
+    font-weight: 400;
+}
+#w{
+    width: 210px;
+    margin: 0px 220px;
+    padding: 10px;
+    text-align: center;
+    font-weight: 800;
+    font-size: 16px;
+    font-family: Arial, sans-serif;
+    margin-bottom:30px ;
+    border: 3px solid;
+    border-radius: 50px;
+}
+.imgWrite h2{
+    /* width: 660px; */
+    /* height: 136px; */
+    margin: 10px;
+    font-size: 49px;
+    font-weight: 900;
+    line-height: 70px;
+    text-align: left;
+}
+#w1{
+    width: 550px;
+     margin-top: 30px;
+     margin-bottom: 30px;
+    font-family: Arial, sans-serif;
+    font-size: 16px;
+    font-weight: 400;
+    letter-spacing: 0.5px;
+    color: #736783;
+    text-align: justify;
+}
+
+/* .card{
+    max-width: 900px;
+    border: 2px solid;
+    margin: 900px 1200px 0px 20px;
+} */
+
+.footer{
+    /* width: auto; */
+     margin: 200px 40px 10px -390px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.footer img{
+     display: flex;
+    margin: -800px 20px 20px -600px;
+}
+
+.fw{
+    max-width: 600px;
+    height: 500px;
+    margin: -40px 0px 650px -1545px;
+    border: 0px solid;
+    background-color: #7fefc1;
+}
