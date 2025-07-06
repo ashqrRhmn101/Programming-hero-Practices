@@ -61,7 +61,7 @@ body{
     margin-top: 10px;
     text-align: center;
     line-height: 25px;
-    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    font-weight: 500;
 }
 .icon{
     display: flex;
@@ -84,10 +84,18 @@ body{
     border-radius: 100%;
     /* background-color: #459efc; */
 }
+.icon ,i:hover{
+    color: #000000;
+    transition: all ease-in 0.05s;
+}
 .btn{
     display: flex;
     justify-content: center;
     align-items: center;
+}
+.btn, button:hover{
+    color: #ffffff;
+    transition: all 0.7s ease-out;
 }
 .btn button{
     width:100px;
@@ -97,5 +105,29 @@ body{
     background-color: #41aaff;
     border: 2px solid #414a44;
     border-radius: 50px;
-   
+    box-shadow: 2px 5px 5px rgba(41, 142, 251, 0.5);
 }
+.flw{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.fl{
+    margin-top: 20px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-right: 2px solid green;
+    height: 15px;
+}
+.flw i:hover{
+    background: rgb(241, 241, 241);
+    transition: all ease-in 0.05s;
+}
+.fl:last-child{
+    border-right: none;
+}
+.num{
+    margin: 0 15px 0 -15px;
+}
+
