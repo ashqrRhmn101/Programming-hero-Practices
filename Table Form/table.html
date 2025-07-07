@@ -1,0 +1,68 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Web Table</title>
+
+    <style>
+        table{
+            /* border: 1px solid; */
+            width: 50%;
+            height: 110px;
+            border-collapse: collapse;
+        }
+        td{
+            border: 1px solid;
+            min-width: 50px;
+        }
+        tfoot{
+            /* text-align: center; */
+        }
+    </style>
+</head>
+<body>
+      <header>
+         <div class="hed">
+             <h2>Our project</h2>
+             <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Magnam, excepturi.
+             </p>
+         </div>
+      </header>
+      <main>
+            <table>
+                <thead>
+                    <th>
+                        <tr>
+                        <td>num</td>
+                        <td>num</td>
+                        <td>num</td>
+                        <td colspan="2" align="center">num</td>
+                        <!-- <td>num</td> -->
+                    </tr>
+                    </th>
+                </thead>
+                <tbody>
+                    <tr>
+                        <td rowspan="2">11</td>
+                        <td>1</td>
+                        <td rowspan="2">2</td>
+                        <td>3</td>
+                        <td>4</td>
+                    </tr>
+                    <tr>
+                        <td>1</td>
+                        <!-- <td>2</td> -->
+                        <td>3</td>
+                        <td>4</td>
+                    </tr>
+                </tbody>
+                <tfoot>
+                    <td colspan="3"></td>
+                    <td >Total </td>
+                    <td align="left">0</td>
+                </tfoot>
+            </table>
+      </main>
+</body>
+</html>
