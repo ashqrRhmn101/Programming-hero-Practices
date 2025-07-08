@@ -1,0 +1,104 @@
+*{
+    margin: 0%;
+    padding: 0%;
+}
+body{
+    /* background-color:azure ; */
+    margin: 10px;
+    width: 100%;
+    height: 100vh;
+}
+header{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding-left: 20px;
+    margin-right: 3px;
+    /* background-color: rgb(0, 0, 0, 0.02); */
+    box-shadow: 0 10px 10px rgb(0, 0, 0, 0.08);
+    height: 60px;
+    border-radius: 5px;
+    
+}
+.menu ul, li{
+    margin-right: 20px;
+    display: flex;
+    gap: 4px;
+    font-weight: bold;
+}
+.menu li, a{
+    text-decoration: none;
+    color: black;
+}
+.hero{
+    display: flex;
+    width: 1100px;
+    justify-content: space-around;
+    margin-top: 20px;
+}
+.menu li, a:hover{
+    color: blue;
+    transition: all ease-in 0.05s;
+}
+.hero-img{
+    
+}
+.hero-img img{
+    width: 300px;
+    height: 300px;
+}
+.hero-w h2{
+    padding-top: 30px;
+    line-height: ;
+    font-size: 3em;
+}
+.hero-w p{
+    width: 500px;
+    margin-top: 20px;
+    font-size: 1.5em;
+}
+button{
+    width: 130px;
+    height: 40px;
+    border-radius: 50px;
+    margin-top: 30px;
+    background-color: deepskyblue;
+    box-shadow: 2px 2px 15px 2px rgba(30, 123, 243, 0.381);
+    font-weight: 800;
+}
+button:hover{
+    color: aliceblue;
+    background-color: rgb(70, 185, 95);
+    box-shadow: 2px 2px 15px 2px rgba(30, 243, 90, 0.381);
+    transition: all ease-in 0.2s;
+}
+.card-section{
+    text-align: center;
+}
+.card-section h2{
+    font-size: 2em;
+}
+
+.card-container{
+    margin-top: 20px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 20px;
+    /* width: 250px; */
+}
+.card{
+    width: 200px;
+    padding-bottom: 10px;
+    border: 2px solid;
+    margin-bottom: 20px;
+    box-shadow: 10px 10px 15px rgba(0, 0, 0, 0.09);
+}
+.card img{
+    width: 150px;
+    height: 150px;
+}
+
+.btn {
+   margin-bottom: 20px;
+}

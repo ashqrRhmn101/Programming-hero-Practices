@@ -1,0 +1,80 @@
+
+.open-sans-normal{
+  font-family: "Open Sans", sans-serif;
+  font-optical-sizing: auto;
+  font-style: normal;
+  font-variation-settings:
+    "wdth" 100;
+}
+         /* Header Style */
+.header{
+    background-image: url(../images/header_bg.png), url(../images/developer.png);
+    background-repeat: no-repeat;
+    background-position: bottom right, top left;
+}
+/* Nav style */
+nav{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin: 0 100px;
+}
+.nav-title{
+    font-size: 45px;
+    font-weight: 800;
+}
+nav ul{
+    display: flex;
+    /* gap: 10px; */
+    align-items: center;
+}
+nav li{
+    list-style: none;
+    margin-right: 50px;
+}
+nav a{
+    text-decoration: none;
+}
+ 
+
+        /* Shard Style */
+.color-pripary{
+    background-color: #FFF8F3;
+}
+.text-primary{
+    color: #FD6E0A;
+}
+.dark2{
+    color: #474747;
+}
+.dark3{
+    color: #757575;
+}
+.btn-primary{
+    background-color: #FD6E0A;
+    font-weight: bold;
+    font-size: 20px;
+    color: white;
+    padding: 18px 35px;
+    border-radius: 5px;
+}
+
+       /* Banner style */
+.banner{
+    display: flex;
+    justify-content: space-between;
+    margin: 0 35px 0 100px
+}
+.banner-content{
+    margin-top: 100px;
+}
+.banner-greeting{
+    font-weight: bold;
+}
+.banner-title{
+    font-size: 45px;
+    font-weight: 800;
+}
+.banner-img{
+    width: 550px;
+}
