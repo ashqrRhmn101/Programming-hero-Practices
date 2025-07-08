@@ -44,6 +44,7 @@ header{
     
 }
 .hero-img img{
+    margin-top: 20px;
     width: 300px;
     height: 300px;
 }
@@ -93,21 +94,34 @@ button:hover{
     width: 220px;
     padding: 10px;
     margin-bottom: 20px;
+    border-radius: 24px 24px 10px 10px;
     box-shadow: 0px 10px 50px rgba(0, 0, 0, 0.09);
+    transition: transform 0.2s;
 }
- .card-section::before{
-      content: "";
+.card:hover {
+    transform: scale(1.05);
+    border-radius: 20px;
+} 
+ .card::before{
+    content: "";
     position: absolute;
     background-color: #41aaff;
-    height: 30%;
-    width: 100%;
-    top: 0;
+    height:100px;
+    width: 240px;
+    margin-top: -10px;
+    margin-left: -10px;
     border-radius: 24px 24px 0 0;
+    display: flex;
 }
 
 .card img{
     width: 150px;
     height: 150px;
+    position: relative;
+    object-fit: cover;
+    border-radius: 20px;
+    box-shadow: 0 4px 16px rgba(65, 170, 255, 0.15);
+    /* transition: transform 0.2s; */
 }
 
 .btn {
