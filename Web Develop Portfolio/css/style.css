@@ -38,7 +38,10 @@ nav a{
  
 
         /* Shard Style */
-.color-pripary{
+.text-align{
+    text-align: center;
+}
+.secondary-bg-color{
     background-color: #FFF8F3;
 }
 .text-primary{
@@ -77,4 +80,55 @@ nav a{
 }
 .banner-img{
     width: 550px;
+}
+/* main style */
+main{
+    max-width: 1140px;
+    margin: 0 auto;
+}
+main section{
+      margin-top: 130px;
+        margin-bottom: 130px;
+}
+/* About Style */
+.about{
+    border-radius: 10px;
+    text-align: center;
+    padding: 130px 150px;
+}
+.about-items{
+    display: flex;
+    justify-content: space-around;
+    
+}
+.item-description{
+    font-weight: 600;
+}
+.section-title{
+    font-weight: 800;
+    font-size: 35px;
+}
+
+/* skills Start */
+.skills-container{
+    margin-top: 50px;
+    display: flex;
+    justify-content: space-between;
+    gap: 20px;
+}
+.skill{
+    /* width: 267px;
+    height: 377px; */
+    padding: 30px;
+    border-radius: 10px;
+    box-shadow: 0px 6px 6px  rgba(0, 0, 0, 0.08);
+}
+.skill-title{
+    margin-top: 30px;
+    font-weight: 800;
+    font-size: 20px;
+}
+.skill-description{
+    line-height: 30px;
+    padding-right: 30px;
 }
