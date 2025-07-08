@@ -148,6 +148,10 @@ main section{
 .experience-sub-title{
     font-size: 20px;
 }
+.resume-download-cv{
+    text-align: center;
+    margin-top: 40px;
+}
 
 /* Footer style */
 footer{
@@ -160,6 +164,9 @@ footer{
 }
 .footer-column{
     width: 50%;
+}
+.footer-column img{
+    margin-right: 20px;
 }
 footer input[type="text"], footer input[type="email"], footer textarea{
     height: 64px;
