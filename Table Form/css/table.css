@@ -1,0 +1,13 @@
+ table{
+            /* border: 1px solid; */
+            width: 50%;
+            height: 110px;
+            border-collapse: collapse;
+        }
+        td{
+            border: 1px solid;
+            min-width: 50px;
+        }
+        tfoot{
+            /* text-align: center; */
+        }
