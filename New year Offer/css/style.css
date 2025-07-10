@@ -1,6 +1,22 @@
+
+@import url('https://fonts.googleapis.com/css2?family=Merriweather:ital,opsz,wght@0,18..144,300..900;1,18..144,300..900&display=swap');
+
+.merriweather-text-h1{
+  font-family: "Merriweather", serif;
+  font-optical-sizing: auto;
+  font-style: normal;
+  font-variation-settings:
+    "wdth" 100;
+}
+
+
+/* @import url('https://fonts.googleapis.com/css2?family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&display=swap'); */
+
+
 body{
     margin: 0 auto;
     padding: 0;
+    width: 1320px;
 }
 .head{
     display: flex;
@@ -10,7 +26,7 @@ body{
     border-radius: 20px;
     width: 1320px;
     height: 600px;
-    background: linear-gradient(rgba(0, 0, 0, 0.5), rgba(53, 24, 24, 0.5)), url(../images/Banner\ Image.png);
+    background: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.1)), url(../images/Banner\ Image.png);
     /* background-size: cover;
     background-position: center; */
 }
@@ -28,4 +44,115 @@ body{
 .head-title{
     font-size: 72px;
     line-height: 95px;
+}
+.offer-card{
+    /* font-style: inter, sans-serif; */
+    text-align: center;
+    margin: 100px auto;
+    width: 802px;
+    height: 804px;
+}
+.offer-card h1{
+    font-size: 88px;
+    font-weight: 1900;
+    color: red;
+}
+.offer-card p{
+    font-size: 24px;
+    color: red;
+}
+.offer-card h3{
+    font-size: 28px;
+    font-weight: bold;
+}
+/*  Banner 2 style   */
+.banner2{
+    display: flex;
+    margin: 40px auto;
+    /* justify-content: center; */
+    border-radius: 20px;
+    width: 1320px;
+    height: 600px;
+ background: no-repeat url(../images/Group\ 70.png)  right,  linear-gradient(rgba(0, 0, 0, .3), rgba(0, 0, 0, 0.3)),url(../images/Vectorrr.png);
+}
+.banner-tittle{
+    color: white;
+    width: 652px;
+    text-align: left;
+    margin: 126px;
+}
+.banner-tittle h1{
+    width: 642px;
+    font-size: 64px;
+    line-height: 88px;
+}
+.banner-tittle p{
+    font-size: 18px;
+    line-height: 30px;
+}
+.banner-tittle button{
+    width: 200px;
+    height: 60px;
+    border-radius: 10px;
+    color: white;
+    font-size: 20px;
+    font-weight: bold;
+    border: none;
+    cursor: pointer;
+    background: transparent;
+    transition: 0.3s;
+}
+.banner-tittle button:hover{
+    border: 2px solid #ff8a4f;
+    color: #ffad3a;
+
+}
+/*  Main Section start */
+.main{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    background:linear-gradient(rgb(255, 213, 213),rgb(255, 255, 255));
+    height: 482px;
+}
+.main-tittle span{
+    color: red;
+}
+.main-tittle h4{
+    font-size: 32px;
+}
+.main-tittle button{
+    font-size: 20px;
+    font-weight: bold;
+    width: 200px;
+    height: 60px;
+    background-color: #FF0000;
+    border-radius: 10px;
+    border: none;
+    color: white;
+    cursor: pointer;
+    transition: all ease 0.3s;
+}
+.main-tittle button:hover{
+    background: transparent;
+    border: 2px solid #FF0000;
+    color: #FF0000;
+}
+/*   MAin  2 Style */
+.main2{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+.about-tittle{
+    width: 390px;
+}
+.about-tittle2{
+    width: 276px;
+}
+.about-image{
+    border: 20px solid #FF0000;
+    border-radius: 50%;
+    padding: 50px;
 }
