@@ -1,0 +1,31 @@
+body{
+    margin: 0 auto;
+    padding: 0;
+}
+.head{
+    display: flex;
+    margin: 40px auto;
+    text-align: center;
+    justify-content: center;
+    border-radius: 20px;
+    width: 1320px;
+    height: 600px;
+    background: linear-gradient(rgba(0, 0, 0, 0.5), rgba(53, 24, 24, 0.5)), url(../images/Banner\ Image.png);
+    /* background-size: cover;
+    background-position: center; */
+}
+.head-tittle{
+    color: white;
+    width: 632px;
+    height: 246px;
+    margin: 0 auto;
+    padding-top: 177px; 
+}
+.head-sub-title{
+    margin-top: 0px;
+    font-size: 32px;
+}
+.head-title{
+    font-size: 72px;
+    line-height: 95px;
+}
