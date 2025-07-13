@@ -109,7 +109,7 @@ section{
     height: auto;
 }
 .hero-text h1{
-    font-size: 5rem;
+    font-size: var(--big-font);
     font-weight: 800;
     margin: 15px 0;
 }
@@ -175,4 +175,113 @@ section{
 }
 .icons i:hover{
     color: var(--main-color);
+}
+
+/* Responsive  style*/
+@media(max-width: 1770px){
+    header{
+        padding: 22px 4%;
+    }
+    .icons{
+        padding: 0 4%;
+    }
+}
+@media(max-width: 1670px){
+    :root{
+        --big-font: 4rem;
+        --p-font: 12px;
+    }
+}
+@media(max-width: 1370px){
+    .icons{
+        display: none;
+    }
+    section{
+        padding: 0 4%;
+    }
+}
+@media(max-width: 1150px){
+    :root{
+        --big-font: 3.5rem;
+    }
+    .price{
+        font-size: 20px;
+    }
+    .btn{
+        padding: 10px 23px;
+    }
+}
+@media(max-width: 950px){
+    .bx-menu{
+        display: block;
+    }
+    .hero{
+        padding-top: 140px;
+        transition: all .5s ease;
+    }
+    .hero-text h1{
+        font-size: 2.7rem;
+    }
+    .navlist{
+        position: absolute;
+        width: 100%;
+        height: 100vh;
+        padding: 100px 50px;
+        top: 0;
+        right: 0;
+        bottom: 0;
+        left: 100%;
+        display: flex;
+        flex-direction: column;
+        backdrop-filter: blur(32px);
+        transition: all .6s ease-in-out;
+    }
+    .navlist a{
+        display: block;
+        padding: 0;
+        margin: 0px 0px 25px 0px;
+        font-size: 1.7rem;
+    }
+    .navlist.open{
+        left: 0;
+    }
+}
+@media(max-width: 920px){
+    .hero{
+        grid-template-columns: 1fr;
+        height: auto;
+    }
+    .hero-img{
+        height: 500px;
+        width: 500px;
+        margin: 0 auto;
+    }
+    .hero-img img{
+        width: 100%;
+        height: 100%;
+        object-fit: contain;
+    }
+}
+@media(max-width: 570px){
+    .hero{
+        height: 100vh;
+    }
+    .hero-img{
+        height: 400px;
+        width: 400px;
+        margin: 0 auto;
+    }
+}
+@media(max-width: 440px){
+    :root{
+        --big-font: 2.5rem;
+    }
+    .hero-text h5{
+        font-size: 15px;
+    }
+    .hero-img{
+        height: 360px;
+        width: 360px;
+        margin: 0 auto;
+    }
 }
