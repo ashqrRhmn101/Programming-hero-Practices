@@ -59,3 +59,31 @@ header{
 .navlist a:hover{
     color: var(--main-color);
 }
+/* right-content style */
+.right-content{
+    display: flex;
+    align-items: center;
+}
+.nav-btn{
+    display: inline-block;
+    border: 2px solid var(--text-color);
+    border-radius: 7px;
+    padding: 9px 24px;
+    color: var(--text-color);
+    font-size: 15px;
+    font-weight: 500;
+    transition: all .6s ease;
+    background: transparent;
+}
+.nav-btn:hover{
+    transform: translateY(-5px);
+    border: 2px solid var(--main-color);
+    color: var(--main-color);
+}
+.bx-menu{
+    font-size: 42px;
+    z-index: 10001;
+    cursor: pointer;
+    margin-left: 25px;
+    display: none;
+}
