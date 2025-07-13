@@ -1,6 +1,61 @@
+/* Google Font Link */
+@import url('https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100..900;1,100..900&display=swap');
+
+
+.roboto-text {
+  font-family: "Roboto", sans-serif;
+  font-optical-sizing: auto;
+  font-style: normal;
+  font-variation-settings:
+    "wdth" 100;
+}
+/* Google font end */
+
 *{
     padding: 0;
     margin: 0;
     box-sizing: border-box;
     text-decoration: none;
+}
+:root{
+    --bg-colors: #0c0c0c;
+    --text-color: #fff;
+    --main-color: #ae8957;
+    --big-font: 6.6rem;
+    --p-font: 1rem;
+}
+body{
+    background-color: var(--bg-colors);
+    color: var(--text-color);
+}
+header{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    width: 100%;
+    top: 0;
+    right: 0;
+    z-index: 1000;
+    padding: 35px 7%;
+    transition: all .50s ease;
+}
+.logo img{
+    width: 100%;
+    height: auto;
+}
+.navlist{
+    display: flex;
+}
+.navlist li{
+    list-style: none;
+}
+.navlist a{
+    display: inline-block;
+    margin: 0 35px;
+    color: var(--text-color);
+    font-size: var(--p-font);
+    transition: all .6s ease;
+}
+.navlist a:hover{
+    color: var(--main-color);
 }
