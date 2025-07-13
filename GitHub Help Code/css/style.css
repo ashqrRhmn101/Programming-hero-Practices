@@ -1,0 +1,36 @@
+.animated-btn {
+  padding: 15px 40px;
+  font-size: 18px;
+  color: #fff;
+  background: linear-gradient(90deg, #1e90ff 0%, #00c3ff 100%);
+  border: none;
+  border-radius: 30px;
+  cursor: pointer;
+  transition: transform 0.2s, box-shadow 0.2s, background 0.4s;
+  box-shadow: 0 4px 14px rgba(30,144,255,0.2);
+  position: relative;
+  overflow: hidden;
+}
+
+.animated-btn:hover {
+  transform: scale(1.07) translateY(-3px);
+  box-shadow: 0 8px 24px rgba(30,144,255,0.25);
+  background: linear-gradient(90deg, #00c3ff 0%, #1e90ff 100%);
+}
+
+.animated-btn::after {
+  content: '';
+  position: absolute;
+  left: -75%;
+  top: 0;
+  width: 50%;
+  height: 100%;
+  background: rgba(255,255,255,0.2);
+  transform: skewX(-20deg);
+  transition: left 0.5s;
+  pointer-events: none;
+}
+
+.animated-btn:hover::after {
+  left: 130%;
+}
