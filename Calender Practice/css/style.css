@@ -1,11 +1,22 @@
 body{
     background-color: aliceblue;
 }
+.holy-day{
+    color: red;
+}
+.old-month{
+    opacity: 0.5;
+}
+.month{
+    text-align: center;
+    font-size: 2.5rem;
+    font-weight: 900;
+}
 .calender{
     display: grid;
     grid-template-columns: repeat(7, 1fr);
-    row-gap: 10px;
-    column-gap: 0px;
+    row-gap: 8px;
+    column-gap: 8px;
     max-width: 500px;
     margin: 0 auto;
     font-size: 1rem;
@@ -17,7 +28,7 @@ body{
     display: flex;
     justify-content: center;
     align-items: center;
-    background-color: rgba(0, 255, 255, 0.537);
+    background-color: #7688b380;
     padding: 20px;
     margin: 5px;
     max-width: 20px;
@@ -36,4 +47,17 @@ body{
 .day{
     background-color: rgb(160, 161, 163);
     border-radius: 5px;
+}
+
+/* Media Query */
+
+@media screen and (min-width:400px) and (max-width:990px){
+    .calender{
+        margin: 0 auto;
+    }
+    .date, .day{
+    padding: 15px;
+    margin: 2px;
+    max-width: 15px;
+    }
 }
