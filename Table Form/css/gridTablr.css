@@ -1,0 +1,23 @@
+.container{
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    text-align: center;
+    gap: 20px;
+    /* grid-template-rows: repeat(3, 200px) 50px 50px; */
+  
+}
+.box{
+    background-color: rgba(166, 169, 169, 0.584);
+}
+#box-1{
+    grid-row: span 6;
+}
+#box-11, #box-12{
+    grid-column: span 3;
+}
+#box-6{
+    grid-row: span 3;
+}
+#box-9{
+    grid-row: span 2;
+}
