@@ -1,0 +1,8 @@
+.header, .nav, .main, .sidebar, .advertise, footer
+{
+    background-color: bisque;
+    border: 2px solid tomato;
+    margin: 5px;
+    padding: 5px;
+    border-radius: 5px;
+}
