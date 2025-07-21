@@ -17,7 +17,7 @@ body{
     align-items: center;
     flex-direction: column;
     width: 350px;
-    height: 70%;
+    height: 20%;
     background-color: #ffffff;
     border-radius: 24px;
     padding: 25px;
@@ -49,33 +49,41 @@ body{
     object-fit: cover;
     border: 3px solid rgb(243, 243, 243);
     border-radius: 50%;
+    transition: .3s;
+}
+.image img:hover{
+    transform: scale(1.3);
+    border: 3px solid rgb(25, 56, 197);
 }
 .bottom{
-    margin-top: 50%;
+    margin-top: 60%;
     display: flex;
-    /* justify-content: center;
-    align-items: center; */
+    justify-content: center;
+    align-items: center;
     flex-direction: column;
 }
-.bottom h3,p{
-    margin-top: 10px;
+.bottom h3{
     text-align: center;
-    line-height: 25px;
-    font-weight: 500;
+    font-size: 2rem;
+    font-weight: 800;
+}
+.bottom p{
+    font-size: 16px;
+    font-weight: 600;
+    color: #828181;
+    margin-top: 15px;
 }
 .icon{
     display: flex;
     justify-content: center;
+    align-items: center;
     margin: 5px;
     width: 50%;
     height: 17%;
 }
 .icon .link, i{
-    padding: 8.8px;
     margin: 10px 10px;
     display: flex;
-    justify-content: center;
-    align-items: center;
     width: 35px;
     height: 35px;
     font-size: 18px;
@@ -89,36 +97,41 @@ body{
     transition: all ease-in 0.05s;
 }
 .btn{
-    display: flex;
-    justify-content: center;
-    align-items: center;
+    /* display: flex; */
+    /* justify-content: center;
+    align-items: center; */
 }
-.btn, button:hover{
-    color: #ffffff;
+.btn button:hover{
+    color: #2d0e0387;
+    transform: scale(1.04);
+    text-align: content;
     transition: all 0.7s ease-out;
 }
 .btn button{
     width:100px;
+    height: 40px;
+    font-size: 14px;
     font-weight: 700;
     margin: 0 20px;
-    padding: 10px;
     background-color: #41aaff;
-    border: 2px solid #414a44;
+    color: white;
+    border: none;
     border-radius: 50px;
-    box-shadow: 2px 5px 5px rgba(41, 142, 251, 0.5);
+    box-shadow: 2px 2px 15px rgba(41, 142, 251, 0.5);
 }
 .flw{
     display: flex;
-    justify-content: center;
-    align-items: center;
+    margin-top: 20px;
+    /* background-color: #d34242; */
+    /* justify-content: center; */
+    /* align-items: center; */
 }
 .fl{
-    margin-top: 20px;
-    display: flex;
-    justify-content: center;
-    align-items: center;
+    /* display: flex; */
+    /* justify-content: center;
+    align-items: center; */
     border-right: 2px solid green;
-    height: 15px;
+    height: 25px;
 }
 .flw i:hover{
     background: rgb(241, 241, 241);
