@@ -29,7 +29,7 @@ var returns = totalMoney - sum;
 
 console.log(returns);
 
-//  practice Problem 2
+        //  practice Problem 2
 
 // const math = 75.25, biology = 65, chemistry = 80, physics = 35.45, bangla = 99.50;
 
@@ -44,3 +44,27 @@ const total = math + biology + chemistry + physics + bangla;
 const avg = total / 5;
 
 console.log("Total Subject Average : ", avg.toFixed(2));
+
+
+        //  practice Problem 3
+
+        const readline = require("readline");
+
+// const rl = readline.createInterface({
+//   input: process.stdin,
+//   output: process.stdout,
+// });
+
+// rl.question("Enter number: ", (input) => {
+//   const num = parseFloat(input);
+//   const remainder = num % 5;
+//   console.log("Remainder =", remainder);
+
+//   rl.close();
+// });
+
+       //  practice Problem 3
+const num = 119;
+const divide =  num % 5;
+
+console.log(divide);
