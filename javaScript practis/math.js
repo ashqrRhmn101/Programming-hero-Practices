@@ -67,8 +67,3 @@ const num = 119;
 const divide = num % 5;
 
 console.log(divide);
-
-const num = parseFloat(prompt("Enter number : "));
-const remainder = num % 5;
-
-console.log("ভাগশেষ =", remainder);
