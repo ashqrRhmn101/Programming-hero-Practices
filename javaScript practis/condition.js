@@ -126,3 +126,37 @@ let result= (num1>num2) ? (num1*2) : (num1+num2);
 // }
 
 console.log("Result = ", result);
+
+
+//  Next Work
+const isPassed = false;
+
+// if(isPassed === false)
+if(!isPassed)   // ( ! )true kore feleche; (!!) 2ta mane false
+{
+    console.log("Fail")
+}
+else{
+    console.log("Good job")
+}
+
+
+let price = 800;
+const isLeader = false;
+// if(isLeader === true)
+// {
+//     if(price > 1000)
+//     {
+//         price = price /2;
+//     }
+//     else{
+//         price = 0;
+//     }
+// }
+// else{
+//     price = price +100;
+// }
+
+price = isLeader===true ? price > 1000 ? price/2 : 0 : price + 100;
+
+console.log("Price = ", price);
