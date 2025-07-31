@@ -96,7 +96,6 @@ if (myScore > 80) {
   console.log("go to home and sleep and act sad");
 }
 
-
 /***
 
 you have two numbers in two variables, called: num1, num2
@@ -113,8 +112,7 @@ also, write it using ternary operator.
 let num1 = 21;
 let num2 = 20;
 
-
-let result= (num1>num2) ? (num1*2) : (num1+num2);
+let result = num1 > num2 ? num1 * 2 : num1 + num2;
 
 // if(num1>num2)
 // {
@@ -127,19 +125,16 @@ let result= (num1>num2) ? (num1*2) : (num1+num2);
 
 console.log("Result = ", result);
 
-
 //  Next Work
 const isPassed = false;
 
 // if(isPassed === false)
-if(!isPassed)   // ( ! )true kore feleche; (!!) 2ta mane false
-{
-    console.log("Fail")
+if (!isPassed) {
+  // ( ! )true kore feleche; (!!) 2ta mane false
+  console.log("Fail");
+} else {
+  console.log("Good job");
 }
-else{
-    console.log("Good job")
-}
-
 
 let price = 800;
 const isLeader = false;
@@ -157,6 +152,6 @@ const isLeader = false;
 //     price = price +100;
 // }
 
-price = isLeader===true ? price > 1000 ? price/2 : 0 : price + 100;
+price = isLeader === true ? (price > 1000 ? price / 2 : 0) : price + 100;
 
 console.log("Price = ", price);
