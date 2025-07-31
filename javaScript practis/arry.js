@@ -17,3 +17,4 @@ console.log(fruits.includes("apple")); // *important ( Find item );  Output : tr
 console.log(fruits.indexOf("Banana")); // *important ( koto nmbr index e ache ) Output: 2
 
 console.log(Array.isArray(fruits)); // check array; Output : true
+
