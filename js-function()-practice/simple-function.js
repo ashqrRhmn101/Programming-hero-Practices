@@ -15,12 +15,39 @@ console.log(totals);
 
 // simple Square math
 
-function square(number){
-    console.log("Value Number ", number);
-    const ttl = number * number ;
+function square(number) {
+  console.log("Value Number ", number);
+  const ttl = number * number;
 
-    return ttl;
-    // console.log("Square value ", ttl);
+  return ttl;
+  // console.log("Square value ", ttl);
 }
 const res = square(5);
 console.log("Square value ", res);
+
+// Double value
+
+function doubleIt(nmbr) {
+  const dbl = nmbr * 2;
+  console.log("Number: ", nmbr + "\n" + "Ans: ", dbl);
+}
+doubleIt(5);
+doubleIt(10);
+doubleIt(15);
+
+const money = 100;
+doubleIt(money);
+
+// space
+console.log("-------NEXT-------");
+// return value add
+function tenTime(number1) {
+  const result1 = number1 * 10;
+  return result1;
+}
+tenTime(5);
+const total1 = tenTime(5);
+console.log(total1);
+
+const total2 = tenTime(10);
+console.log(total2);
