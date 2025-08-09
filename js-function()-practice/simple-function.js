@@ -51,3 +51,21 @@ console.log(total1);
 
 const total2 = tenTime(10);
 console.log(total2);
+
+//
+console.log("-----Next Price Function----");
+//
+
+function add(price1, price2){
+  const total3 = price1+price2;
+  return total3;
+}
+const price = add(20,20);
+console.log(price);
+
+//   OR--------
+function add2(price1, price2){
+  return price1 + price2;
+}
+const price2 = add2(10,20);
+console.log(price2);
