@@ -56,16 +56,32 @@ console.log(total2);
 console.log("-----Next Price Function----");
 //
 
-function add(price1, price2){
-  const total3 = price1+price2;
+function add(price1, price2) {
+  const total3 = price1 + price2;
   return total3;
 }
-const price = add(20,20);
+const price = add(20, 20);
 console.log(price);
 
 //   OR--------
-function add2(price1, price2){
+function add2(price1, price2) {
   return price1 + price2;
 }
-const price2 = add2(10,20);
+const price2 = add2(10, 20);
 console.log(price2);
+
+//
+console.log("-----Next if else----");
+//
+
+function add3(a, b) {
+  const sum3 = a + b;
+  console.log(sum3);
+
+  if (sum3 % 2 === 0) {
+    console.log("even");
+  } else {
+    console.log("Odd");
+  }
+}
+add3(3, 2);
