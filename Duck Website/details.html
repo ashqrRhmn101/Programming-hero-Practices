@@ -1,0 +1,164 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <script src="https://cdn.jsdelivr.net/npm/@tailwindcss/browser@4"></script>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Duck Details</title>
+    <style>
+      .details {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        gap: 50px;
+      }
+      .card {
+        color: #151414;
+        background-color: rgba(205, 253, 147, 0.607);
+        width: 300px;
+        margin: 0 10px;
+        padding: 15px;
+        border-radius: 10px;
+        box-shadow: 0 4px 8px rgba(142, 142, 142, 0.842);
+        text-align: center;
+      }
+      .card:hover {
+        background-color: #e2e3e2;
+        color: rgb(4, 4, 4);
+      }
+
+      /* ছবির সাইজ ও স্টাইল */
+      .card img {
+        max-width: 100%;
+        /* height: 180px; */
+        object-fit: cover;
+        object-position: center;
+        border-radius: 8px;
+      }
+
+      /* হাঁসের নাম */
+      .card h3 {
+        margin: 10px 0 5px;
+        font-size: 18px;
+      }
+
+      /* দাম */
+      .price {
+        color: rgb(26, 25, 25);
+        font-weight: bold;
+      }
+      .btn {
+        padding: 10px 20px;
+        border: none;
+        background-color: aquamarine;
+        border-radius: 8px;
+      }
+      .btn:hover {
+        background-color: rgb(28, 93, 150);
+        color: #e2e3e2;
+      }
+      .navbar {
+        display: flex;
+        align-items: center;
+        justify-content: space-between;
+      }
+      .navbar img {
+        max-width: 200px;
+      }
+      .nav {
+        display: flex;
+        justify-content: space-around;
+        align-items: center;
+        list-style: none;
+        gap: 40px;
+        font-size: 20px;
+        font-weight: bold;
+      }
+      .nav li a {
+        text-decoration: none;
+        color: rgb(168, 139, 101);
+      }
+      .btn {
+        padding: 10px 20px;
+        border: none;
+        background-color: aquamarine;
+        border-radius: 8px;
+        font-size: 16px;
+        font-weight: 700;
+      }
+      .btn2 {
+        padding: 10px 40px;
+        border: none;
+        background-color: rgb(209, 228, 67);
+        border-radius: 8px;
+        font-size: 16px;
+        font-weight: 700;
+      }
+    </style>
+  </head>
+  <body>
+    <div class="navbar pr-8">
+      <img src="images/duck-Photoroom.png" alt="" />
+      <ul class="nav">
+        <li><a href="index.html">Home</a></li>
+        <li><a href="">Product</a></li>
+        <button class="btn">
+          <li><a href="">Buy now</a></li>
+        </button>
+      </ul>
+    </div>
+    <!-- det -->
+    <div class="details bg-gray-50 mx-70 rounded-2xl">
+      <div class="card" data-name="দেশি হাঁস বড়">
+        <img src="images/duck-Photoroom.png" alt="দেশি হাঁস" />
+        <h3 class="font-bold">দেশি হাঁস (বড়)</h3>
+        <p class="price">৳ 450</p>
+        <button class="btn">Buy Now</button>
+      </div>
+      <!-- desc -->
+      <div class="desc">
+        <h2 class="font-extrabold text-4xl pb-10">দেশি হাঁস বড়</h2>
+        <p class="w-90 font-medium">
+          Lorem ipsum dolor sit amet consectetur, adipisicing elit. Ut culpa,
+          accusantium quas quidem mollitia voluptatum cumque perspiciatis,
+          tempore modi, aspernatur quasi corrupti qui totam saepe ipsum aliquam
+          molestiae! Doloremque, ut!
+        </p>
+        <div class="mt-10">
+          <a href="index.html"><button class="btn2">Go Back <</button></a>
+        </div>
+      </div>
+    </div>
+
+    <!-- Footer -->
+    <footer class="bg-blue-100">
+      <div
+        class="w-full h-80 mt-20 p-0 flex justify-around items-center font-bold font-"
+      >
+        <div class="">
+          <div class="w-50"><img src="images/duck-Photoroom.png" alt="" /></div>
+          <p>
+            Discover a world of treats, toys, and essentials handpicked <br />
+            for your furry friends
+          </p>
+        </div>
+        <!-- link -->
+        <div class="link-section mt-15">
+          <ul>
+            <li><a href="">Product</a></li>
+            <li><a href="">Services</a></li>
+            <li class="text-blue-500">
+              <a href="https://www.facebook.com/md.mostafizur.rohman.naim"
+                >Contact us</a
+              >
+            </li>
+          </ul>
+          <div class="text-2xl font-bold mt-8">
+            <span class="text-xl">Develop By</span> : <br />
+            Ashiqu<span class="text-amber-600 text-3xl">r R</span>ahman
+          </div>
+        </div>
+      </div>
+    </footer>
+  </body>
+</html>
